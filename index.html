@@ -5,32 +5,52 @@
   <title>Download - Aplicativo RCP</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
       text-align: center;
-      padding: 60px;
-      background-color: #f5f5f5;
+      padding: 50px;
     }
     h1 {
-      color: #222;
+      font-size: 2.2em;
     }
-    a {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 24px;
+    p {
+      font-size: 1.1em;
+      margin: 20px auto;
+      max-width: 500px;
+    }
+    a.button {
       background-color: #28a745;
       color: white;
-      border-radius: 8px;
+      padding: 15px 30px;
       text-decoration: none;
-      font-size: 18px;
+      border-radius: 10px;
+      font-size: 1.1em;
+      margin-top: 30px;
+      display: inline-block;
     }
-    a:hover {
+    a.button:hover {
       background-color: #218838;
+    }
+    .note {
+      margin-top: 40px;
+      font-size: 0.95em;
+      color: #555;
     }
   </style>
 </head>
 <body>
-  <h1>📲 Baixe o Aplicativo RCP</h1>
-  <p>Clique no botão abaixo para baixar o arquivo APK:</p>
-  <a href="app-release.apk" download>⬇️ Baixar APK</a>
+  <h1>📲 Baixar Aplicativo RCP</h1>
+  <p>Clique no botão abaixo para baixar o arquivo APK do aplicativo.</p>
+  <a class="button" href="app-release.apk" download>⬇️ Baixar APK</a>
+
+  <div class="note">
+    <p><strong>Como instalar:</strong></p>
+    <ul style="text-align: left; display: inline-block;">
+      <li>1️⃣ Após o download, abra o arquivo.</li>
+      <li>2️⃣ Se aparecer uma mensagem de "Fonte desconhecida", permita a instalação.</li>
+      <li>3️⃣ Pronto! O app estará disponível no seu Android.</li>
+    </ul>
+  </div>
 </body>
 </html>
